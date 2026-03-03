@@ -31,27 +31,36 @@ A small Terraform project to practice Infrastructure as Code by provisioning an 
     terraform validate
 ```
 
-3. Initialize
+![Terraform Validate](images/terraform-validate.png)
+
+5. Initialize
 ```bash
    terraform init
 ```
+
 ![Terraform Init](images/terraform-init.png)
 
-4. Plan
+6. Plan
 ```bash 
    terraform plan
 ```
+![Terraform Plan](images/terraform-plan.png)
 
-5. Apply
+7. Apply
 ```bash
     terraform apply
 ```
+![Terraform Apply](images/terraform-apply.png)
 
-6. Cleanup
+8. Cleanup
 
 ```bash
     terraform destroy
 ```
+
+![Terraform Destroy](images/terraform-destroy.png)
+
+![Destroyed Infrastracture](images/destroy.png)
 
 ## Notes
 - Do not commit terraform.tfvars, state files, or key pairs.
