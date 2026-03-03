@@ -21,10 +21,21 @@ A small Terraform project to practice Infrastructure as Code by provisioning an 
    cp terraform.tfvars.example terraform.tfvars
 ```
 
-3. Initialize:
+3. Format
+```bash
+    terraform fmt
+```
+
+4. Validate
+```bash
+    terraform validate
+```
+
+3. Initialize
 ```bash
    terraform init
 ```
+![Terraform Init](images\terraform-init.png)
 
 4. Plan
 ```bash 
