@@ -35,7 +35,7 @@ A small Terraform project to practice Infrastructure as Code by provisioning an 
 ```bash
    terraform init
 ```
-![Terraform Init](images\terraform-init.png)
+![Terraform Init](images/terraform-init.png)
 
 4. Plan
 ```bash 
